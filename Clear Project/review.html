@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Review Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding-top: 7px;
+      background-color: #e3e2e2db;
+    }
+
+    header {
+      background-color: #cfcecedb;
+      color:  white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .reviewTeacher {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color:#cfcecedb;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    .review {
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+      margin-bottom: 10px;
+    }
+
+    .review h3 {
+      color: #333;
+    }
+
+    .review p {
+      color: #555;
+    }
+
+    .form-container {
+      max-width: 400px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color:#cfcecedb;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    .form-container label {
+      display: block;
+      margin-bottom: 8px;
+      color: #333;
+    }
+
+    .form-container input,
+    .form-container textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+      border: 1px ;
+      border-radius: 4px;
+    }
+
+    .form-container button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    a{
+            color: white;
+            padding: 20px;
+            text-decoration: none;
+        }
+
+   
+  </style>
+</head>
+<body s>
+    
+  <nav id="nav" >
+    <div style="background-color:rgb(44, 121, 44);">
+        
+    <a id="logo" style="background-color: rgb(48, 199, 48); color:rgb(0, 0, 0) ; font-size: 40pt; text-indent: 3em;">YAH</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a  href="Home.html" >Home</a>
+    <a  href="Teachers.html">Teachers</a>
+    <a  href="Worksheets.html">WorkSheets</a>
+    <a  href="sitemap.html">Site Map</a>
+    <a  href="review.html">Reviews</a>
+    <a  href="contact.html">Contact Us</a>
+
+    <a id="about" class="nav-link" href="about us.html" style="text-align: right;">About Us</a>
+       
+  </div>
+
+ </nav>  
+
+  <header>
+    <h1>Students Reviews</h1>
+  </header>
+
+  <div class="reviewTeacher">
+    <div class="review">
+      <h3>Mohammad Rabab'ah</h3>
+      <p>One of the best online platform that help me to find direct links for the teachers .</p>
+    </div>
+
+    <div class="review">
+      <h3>Ahmad Al-damisi</h3>
+      <p>best online platform that assist me to learn english easy .</p>
+    </div>
+
+    <div class="review">
+      <h3>Hadeel Ahmad</h3>
+      <p>one of best website that assist me as a teacher to learn english.</p>
+    </div>
+  </div>
+
+  <div class="form-container">
+    <h2>Leave a Review</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="user-review">Your Review:</label>
+      <textarea id="user-review" name="user-review" rows="4" required></textarea>
+
+      <button type="submit">Submit Review</button>
+    </form>
+  </div>
+
+</body>
+</html>
